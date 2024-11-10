@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
  * Root resource (exposed at "myresource" path)
  */
 @Api(value = "/text", description = "Endpoint to Text Service")
-@Path("text")
+@Path("/text")
 public class TextService {
 
     /**
